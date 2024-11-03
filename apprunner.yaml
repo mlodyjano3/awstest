@@ -2,6 +2,6 @@ version: 1.0
 runtime: python3
 build:
   commands:
-    - pip install -r requirements.txt
+    - pip3 install -r requirements.txt
 run:
   command: python3 main.py  # Replace with your actual entry point script
